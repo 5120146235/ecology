@@ -34,7 +34,7 @@ public class UserController {
      */
 
     @RequestMapping(value = { "/getUserInfo/{id}" }, method = RequestMethod.GET)
-    @ApiOperation(value="获取人员信息",response = String.class)
+    @ApiOperation(value="获取人员信息接口",response = String.class)
     @ApiImplicitParams(
             {@ApiImplicitParam(name = "id", value = "人员id", required = true)
             })
