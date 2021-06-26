@@ -30,6 +30,7 @@ public class HelloWorld {
         map.put("age",age);
         map.put("isAccount",isAccount);
         map.put("userInfo",userInfo);
+        map.put("username","");
         return map;
     }
 }
